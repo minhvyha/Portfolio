@@ -159,19 +159,188 @@ img {
 }
 
 /*=============== HEADER & NAV===============*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+}
 
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  transition: .4s
+}
+.nav__logo:hover {
+  color: var(--first-color-alt);
+}
+
+.nav__menu {
+  position: fixed;
+  bottom: 1rem;
+  background-color: hsl(var(--second-hue), 32%, 16%, .8);
+  width: 90%;
+  border-radius: 4rem;
+  padding: .6rem 2.25rem;
+  backdrop-filter: blur(10px);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nav__link {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  padding: .4rem;
+  display: flex;
+  border-radius: 5rem;
+}
 
 /* Active link */
-
+.active-link {
+  background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig), 1), hsla(var(--first-hue), var(--sat), var(--lig), .2));
+  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
+}
 
 /* Change background header */
 
 
 /*=============== HOME ===============*/
+.home__container {
+  position: relative;
+  row-gap: 4.5rem;
+  padding-top: 2rem;
+}
 
+.home__data {
+  text-align: center;
+}
 
+.home__greeting, .home__education {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.home__greeting {
+  display: block;
+  color: var(--title-color);
+  margin-bottom: .25rem;
+}
+
+.home__education {
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
+}
+
+.home__name {
+  font-size: var(--biggest-font-size);
+}
+
+.home__img {
+  width: 170px;
+  
+}
+.home__handle {
+  justify-self: center;
+  width: 190px;
+  height: 293px;
+  background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig),1), hsla(var(--first-hue), var(--sat), var(--lig),.1));
+  border-radius: 10rem 10rem 1rem 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home__scrolls, .home__socials {
+  position: absolute;
+}
+
+.home__socials {
+  bottom: 9rem;
+  left: 0;
+  display: grid;
+  row-gap: .5rem;
+}
+.home__social-link {
+  width: max-content;
+  background-color: var(--container-color);
+  color: var(--first-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  display: flex;
+  font-size: 1.2rem;
+  transition: .4s;
+}
+
+.home__social-link:hover{
+  background-color: var(--first-color);
+  color: white;
+}
+.home__socials::after{
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: var(--first-color);
+  transform: rotate(90deg) translate(16px, 3px);
+}
+.home__scrolls {
+  color: var(--first-color);
+  right: -1.5rem;
+  bottom: 9rem;
+  display: grid;
+  row-gap: 2.25rem;
+  justify-items: center;
+}
+.bx-mouse{
+  font-size: 1.4rem;
+}
+
+.home__scroll-name{
+  font-size: var(--smaller-font-size);
+  transform: rotate(-90deg);
+}
 /*=============== BUTTONS ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: .75rem 1rem;
+  border-radius: .6rem;
+  font-weight: var(--font-medium);
+  border: 2px solid var(--first-color);
+  transition: .4s;
+}
 
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.button--ghost {
+  background-color: transparent;
+  
+  color: var(--first-color);
+}
 
 /*=============== ABOUT ===============*/
 
