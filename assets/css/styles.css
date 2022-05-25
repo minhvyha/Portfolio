@@ -527,6 +527,7 @@ body.light-theme {
   align-items: center;
   column-gap: .25rem;
   cursor: pointer;
+  
 }
 .services__button:hover .services__icon{
   transform: translateX(.25rem); 
@@ -649,6 +650,7 @@ body.light-theme {
 }
 
 .work__button {
+
   width: max-content;
   color: var(--first-color);
   font-size: var(--small-font-size);
@@ -656,7 +658,11 @@ body.light-theme {
   align-items: center;
   column-gap: .25rem;
   cursor: pointer;
+  position: relative;
+  left: 0.25rem;
 }
+
+
 
 .work__button:hover .work__icon {
   transform: translateX(.3rem);
@@ -686,6 +692,7 @@ body.light-theme {
 }
 
 .work__modal-content {
+  max-width: 900px;
   position: relative;
   background-color: var(--body-color);
   padding: 4rem 1.5rem 2.5rem;
