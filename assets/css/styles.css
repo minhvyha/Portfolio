@@ -694,7 +694,7 @@ body.light-theme {
 }
 
 .work__modal-content {
-  max-width: 900px;
+ 
   position: relative;
   background-color: var(--body-color);
   padding: 4rem 1.5rem 2.5rem;
@@ -1020,7 +1020,11 @@ body.light-theme {
     justify-content: center;
   }
   .services__modal-content{
-    width: 500px;
+    width: 600px;
+    padding: 4.5rem 2.5rem 2.5rem;
+  }
+  .work__modal-content{
+    width: 600px;
     padding: 4.5rem 2.5rem 2.5rem;
   }
   .services__modal-description{
