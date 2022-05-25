@@ -48,7 +48,7 @@
                     </ul>
                 </div>
 
-                <i class='bx bx-moon'></i>
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
             </nav>
         </header>
 
@@ -75,7 +75,7 @@
                         <a href="https://github.com/minhvy828" class="home__social-link" target="_blank"><i class='bx bxl-github' ></i></a>
                         <a href="https://www.youtube.com/channel/UC6kYs1bW0j273GneHxFyPFQ" class="home__social-link" target="_blank"><i class='bx bxl-youtube'></i></a>
                     </div>
-                    <a href="#about" class="home__scrolls"><i class='bx bx-mouse'></i><span class="home__scroll-name">Scroll Down</span></a>
+                    <a href="#about" class="home__scrolls"><i class='bx bx-mouse home__scroll-icon'></i><span class="home__scroll-name">Scroll Down</span></a>
                 </div>
             </section>
             
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                         <p class="about__description">👨🏻‍💻 Aspiring software engineer as a student, 
-                            I am constantly learning new technologies and knowledge related to my future career. 
+                            I am constantly learning new technologies and knowledge related to my future career. <br><br>
                             I recently attended and completed CS50 Introduction to Computer Science and many more reputable courses from HarvardX with 𝟑𝟎% less time and dedicated myself to more challenging problem sets that under 𝟐𝟓% of students attending the course completed.
                             </p>
                         <a href="#contact" class="button">Let's Connect</a>
@@ -242,7 +242,7 @@
                 <h2 class="section__title">My Position</h2>
                 <div class="services__container container grid">
                     <div class="services__card">
-                        <h3 class="service__title">Software Engineer <br> Intern</h3>
+                        <h3 class="service__title">Software Engineer Intern</h3>
                         <span class="services__button">See More <i class='bx bx-right-arrow-alt services__icon'></i></span>
                         <div class="services__modal">
                             <div class="services__modal-content">
@@ -291,7 +291,7 @@
                     </div>
 
                     <div class="services__card">
-                        <h3 class="service__title">Python | Java <br> Developer</h3>
+                        <h3 class="service__title">Python | Java Developer</h3>
                         <span class="services__button">See More <i class='bx bx-right-arrow-alt services__icon'></i></span>
                         <div class="services__modal">
                             <div class="services__modal-content">
@@ -340,7 +340,7 @@
                     </div>
 
                     <div class="services__card">
-                        <h3 class="service__title">Software Engineer <br> Full-time/Part-time</h3>
+                        <h3 class="service__title">Software Engineer Full-time/Part-time</h3>
                         <span class="services__button">See More <i class='bx bx-right-arrow-alt services__icon' ></i></span>
                         <div class="services__modal">
                             <div class="services__modal-content">
@@ -617,20 +617,20 @@
                                 </a>
                             </div>
                             <div class="contact__card">
-                                <i class='bx bxl-linkedin' ></i>
+                                <i class='bx bxl-linkedin contact__card-icon' ></i>
                                 <h3 class="contact__card-little">LinkedIn</h3>
                                 <span class="contact__card-data">minhvyha</span>
 
-                                <a href="tel:+61452133899" class="contact__button">
+                                <a href="https://www.linkedin.com/in/minhvyha/" class="contact__button" target="_blank">
                                     See me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>
                             <div class="contact__card">
-                                <i class='bx bx-phone'></i>
+                                <i class='bx bx-phone contact__card-icon'></i>
                                 <h3 class="contact__card-little">Phone Number</h3>
                                 <span class="contact__card-data">+61 452 133 899</span>
 
-                                <a href="" class="contact__button">
+                                <a href="tel:+61452133899" class="contact__button">
                                     See me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
                                 </a>
                             </div>
@@ -638,7 +638,25 @@
                     </div>
 
                     <div class="contact__content">
-                        <h3 class="contact__title"></h3>
+                        <h3 class="contact__title">Write me a direct message</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="text" placeholder="Your mail" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag ">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" class="contact__form-input" placeholder="Your message"></textarea>
+                            </div>
+                            <button class="button">Send Message</button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -646,11 +664,45 @@
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">Minh Vy Ha</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="footer__link">Project</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/minhvyha/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square' ></i>
+                    </a>
+
+                    <a href="mailto:minhvy.ha@outlook.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-gmail' ></i>
+                    </a>
+
+                    <a href="https://github.com/minhvy828" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; Bedimcode. All rights resserved
+                </span>
+            </div>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
         <script src=""></script>
