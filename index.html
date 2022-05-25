@@ -638,22 +638,24 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Write me a direct message</h3>
 
-                        <form action="" class="contact__form">
+                        <form action="https://formsubmit.co/minhvy.ha@outlook.com" method="POST" class="contact__form">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Name</label>
-                                <input type="text" placeholder="Your name" class="contact__form-input">
+                                <input type="text" name="name" placeholder="Your name" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Mail</label>
-                                <input type="text" placeholder="Your mail" class="contact__form-input">
+                                <input type="email" name="email" placeholder="Your mail" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag ">Message</label>
-                                <textarea name="" id="" cols="30" rows="10" class="contact__form-input" placeholder="Your message"></textarea>
+                                <textarea name="message" id="message" cols="30" rows="10" class="contact__form-input" placeholder="Your message"></textarea>
                             </div>
-                            <button class="button">Send Message</button>
+                            <input type="hidden" name="_next" value="https://minhvyha.tech/">
+                            <input type="hidden" name="_subject" value="New Message">
+                            <button class="button" type="submit">Send Message</button>
                         </form>
                     </div>
                 </div>
