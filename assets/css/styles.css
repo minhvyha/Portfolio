@@ -13,9 +13,9 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
+  --first-hue: 215;
+  --sat: 80%;
+  --lig: 76%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
@@ -192,6 +192,7 @@ img {
   border-radius: 4rem;
   padding: .6rem 2.25rem;
   backdrop-filter: blur(10px);
+  left: 5vw;
 }
 .nav__list {
   display: flex;
@@ -554,7 +555,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: .75rem;
+  column-gap: .5rem;
 }
 .work__item {
   cursor: pointer;
@@ -590,6 +591,7 @@ img {
   display: flex;
   align-items: center;
   column-gap: .25rem;
+  cursor: pointer;
 }
 
 .work__button:hover .work__icon {
@@ -605,6 +607,96 @@ img {
   background-color: var(--first-color);
   color: var(--body-color);
 }
+/* work_modal */
+.work__modal {
+  position: fixed;
+  inset: 0;
+  background-color: hsla(var(--second-hue), 28%, 16%, .7);
+  padding: 2rem 1rem;
+  display: grid;
+  place-items: center;
+  transition: .5s;
+  z-index: var(--z-modal);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.work__modal-content {
+  position: relative;
+  background-color: var(--body-color);
+  padding: 4rem 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.work__modal-title, .work__modal-description {
+  text-align: center;
+}
+
+.work__modal-title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+
+}
+
+.work__modal-description{
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.work__modal-list {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.work__modal-item {
+  display: flex;
+  align-items: flex-start;
+  column-gap: .5rem;
+}
+
+.work__modal-icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.work__modal-info {
+  font-size: var(--small-font-size);
+
+}
+
+.work__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.work__active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.work__social{
+  background-color: var(--first-color);
+  padding: 0.75rem;
+  border-radius: 1rem;
+  color: var(--body-color);
+  font-size: 1rem;
+  font-weight: var(--font-medium);
+  transition: .5s;
+}
+
+.work___icon {
+  font-size: 1.3rem;
+  transform: translateY(+3px);
+}
+.work__social:hover {
+  background-color: white;
+}
+
 
 /*=============== TESTIMONIAL ===============*/
 

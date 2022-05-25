@@ -26,6 +26,26 @@ modalClose.forEach((mc) => {
         })
     })
 })
+/*=============== WORL MODAL ===============*/
+const workViews = document.querySelectorAll('.work__modal'),
+      workBtns = document.querySelectorAll('.work__button'),
+      workClose = document.querySelectorAll('.work__modal-close')
+let work = function(workClick) {
+    workViews[workClick].classList.add('work__active')
+}
+
+workBtns.forEach((mw, i) =>{
+    mw.addEventListener('click',()=>{
+        work(i)
+    })
+})
+workClose.forEach((mc) => {
+    mc.addEventListener('click', () =>{
+        workViews.forEach((mv) =>{
+            mv.classList.remove('work__active')
+        })
+    })
+})
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 var mixerPortfolio = mixitup('.work__container', {
     selectors: {
