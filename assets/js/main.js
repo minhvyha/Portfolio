@@ -66,9 +66,6 @@ function activeWork(){
 
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
@@ -81,9 +78,9 @@ function scrollActive(){
               sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.nav__menu li[id*=' + sectionId + ']').classList.add('active-link')
         }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            document.querySelector('.nav__menu li[id*=' + sectionId + ']').classList.remove('active-link')
         }
     })
 }
