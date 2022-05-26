@@ -825,10 +825,7 @@ body.light-theme {
 }
 
 
-/*=============== TESTIMONIAL ===============*/
 
-
-/* Swiper class */
 
 
 /*=============== CONTACT ===============*/
@@ -1009,7 +1006,7 @@ body.light-theme {
     font-size: 1.2em;
   }
   .active-link .indicator{
-    transform: translateY(-26px);
+    transform: translateY(-22px);
     opacity: 1;
   }
   .home__buttons{
