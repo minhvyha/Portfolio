@@ -1001,7 +1001,7 @@ body.light-theme {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (min-width:1px){
+@media screen and (max-width:476px){
   .text{
     font-size: 0.6em;
   }
