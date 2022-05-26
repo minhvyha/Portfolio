@@ -1039,9 +1039,9 @@ body.light-theme {
     font-size: 0.7rem;
 }
   .work__item{
-    font-size: 0.55rem;
+    font-size: 0.60rem;
     text-align: center;
-    padding: .25rem .45rem;
+    padding: 0.25rem;
   }
 
   .work__filters{
