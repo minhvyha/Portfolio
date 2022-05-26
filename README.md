@@ -1,3 +1,3 @@
 # Portfolio Website - Minh Vy Ha
-## [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
+## [Watch it on youtube]()
 ## [Live Demo](minhvyha.tech)
