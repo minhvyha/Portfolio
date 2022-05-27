@@ -20,3 +20,4 @@
 
 ### About this project
 
+![preview img](/preview.png)
