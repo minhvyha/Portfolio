@@ -1149,6 +1149,9 @@ body.light-theme {
   .services__modal-description{
     padding: 0 3.5rem;
   }
+  .skills__name{
+    font-size: 0.70rem;
+  }
   .work__container{
     justify-content: center;
   }
@@ -1193,6 +1196,9 @@ body.light-theme {
   .active-link .indicator {
     transform: translateY(-28px);
     opacity: 1;
+  }
+  .skills__name{
+    font-size: 0.90rem;
   }
 }
 /* For large devices */
@@ -1288,5 +1294,8 @@ body.light-theme {
   .active-link .indicator {
     transform: translateY(-30px);
     opacity: 1;
+  }
+  .skills__name{
+    font-size: var(--normal-font-size);
   }
 }
