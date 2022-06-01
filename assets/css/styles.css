@@ -1110,10 +1110,22 @@ body.light-theme {
     height: 49px;
 
   }
+  .work__item{
+    font-size: 0.60rem;
+    text-align: center;
+    padding: 0.35rem 0.7rem;
+    margin: 0.25rem;
+  }
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+  .work__item{
+    font-size: 0.950rem;
+    text-align: center;
+    padding: 0.45rem 0.65rem;
+    margin: 0.45rem;
+  }
   .nav__menu{
     width: 328px;
     left: 0;
@@ -1297,5 +1309,11 @@ body.light-theme {
   }
   .skills__name{
     font-size: var(--normal-font-size);
+  }
+  .work__item{
+    font-size: 1.050rem;
+    text-align: center;
+    padding: 0.55rem 0.75rem;
+    margin: 0.55rem;
   }
 }
