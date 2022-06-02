@@ -1215,6 +1215,9 @@ body.light-theme {
   .skills__name{
     font-size: 0.90rem;
   }
+  .icon {
+    font-size: 1.4rem;
+  }
 }
 /* For large devices */
 @media screen and (min-width:992px) {
