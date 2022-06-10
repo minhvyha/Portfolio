@@ -1324,7 +1324,7 @@ body.light-theme {
   }
 }
 
-@media screen and (min-width:1240px) {
+@media screen and (min-width:1300px) {
   .work__img{
     width: 300px;
   }
@@ -1333,5 +1333,6 @@ body.light-theme {
   }
   .work__container{
     grid-template-columns: repeat(3, max-content);
+    max-width: max-content;
   }
 }

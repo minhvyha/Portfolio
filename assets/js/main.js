@@ -51,6 +51,9 @@ var mixerPortfolio = mixitup('.work__container', {
     selectors: {
         target: '.work__card'
     },
+    load: {
+        filter: '.algo'
+    },
     animation: {
         duration: 350
     }
