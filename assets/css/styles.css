@@ -1323,3 +1323,15 @@ body.light-theme {
     margin: 0.55rem;
   }
 }
+
+@media screen and (min-width:1240px) {
+  .work__img{
+    width: 300px;
+  }
+  .work__title{
+    font-size: 0.9rem;
+  }
+  .work__container{
+    grid-template-columns: repeat(3, max-content);
+  }
+}

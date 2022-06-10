@@ -52,7 +52,7 @@ var mixerPortfolio = mixitup('.work__container', {
         target: '.work__card'
     },
     animation: {
-        duration: 300
+        duration: 350
     }
 });
 
@@ -63,9 +63,7 @@ function activeWork(){
     linkWork.forEach(l=> l.classList.remove('active-work'))
     this.classList.add('active-work')
 }
-
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
