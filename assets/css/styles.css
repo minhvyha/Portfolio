@@ -126,7 +126,6 @@ body.light-theme {
   --first-hue: 210;
   --sat: 60%;
   --lig: 57%;
-  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
