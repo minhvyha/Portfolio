@@ -676,6 +676,7 @@ body.light-theme {
   justify-content: center;
   align-items: center;
   column-gap: .5rem;
+  margin-bottom: .81rem;
 }
 .work__item {
   cursor: pointer;
@@ -684,6 +685,7 @@ body.light-theme {
   font-weight: var(--font-medium);
   border-radius: .5rem;
   text-align: center;
+  transition: .4s;
 }
 
 .work__card {
