@@ -522,7 +522,7 @@ body.light-theme {
 }
 
 .skills__title {
-  font-size: var(--normal-font-size);
+  font-size: 1.2rem;
   font-weight: var(--font-medium);
   color: var(--first-color);
   text-align: center;
@@ -548,7 +548,7 @@ body.light-theme {
   color: var(--first-color);
 }
 .skills__name {
-  font-size: var(--normal-font-size);
+  font-size: 1.1rem;
   font-weight: var(--font-medium);
   line-height: 18px;
 }
@@ -558,7 +558,7 @@ body.light-theme {
 }
 
 .stats {
-  width: 500px;
+  width: 480px;
 }
 .leetcode__sub {
   margin-top: 6rem;
@@ -566,8 +566,20 @@ body.light-theme {
 .stat{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 1rem;
+  gap: 3rem;
   justify-items: center;
+}
+.skill__card{
+  padding: 2rem 1.7rem;
+  background-color: var(--container-color);
+  border-radius: 1.2rem;
+}
+.stat__title{
+  font-size: 1.25rem;
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  text-align: center;
+  margin-bottom: 2rem;
 }
 /*=============== SERVICES ===============*/
 .services__container {
@@ -1336,6 +1348,9 @@ body.light-theme {
     padding: 0.55rem 0.75rem;
     margin: 0.55rem;
   }
+  .skills__level {
+    font-size: 0.61rem;
+  }
 }
 
 @media screen and (min-width:1300px) {
@@ -1348,5 +1363,8 @@ body.light-theme {
   .work__container{
     grid-template-columns: repeat(3, max-content);
     max-width: max-content;
+  }
+  .skills__level {
+    font-size: 0.71rem;
   }
 }
