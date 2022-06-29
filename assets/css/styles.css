@@ -556,6 +556,19 @@ body.light-theme {
 .skills__level{
   font-size: var(--tiny-font-size);
 }
+
+.stats {
+  width: 500px;
+}
+.leetcode__sub {
+  margin-top: 6rem;
+}
+.stat{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
 /*=============== SERVICES ===============*/
 .services__container {
   grid-template-columns: repeat(2, 1fr);
