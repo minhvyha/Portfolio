@@ -171,13 +171,18 @@ body.light-theme {
   box-shadow: 0 2px 8px hsla(var(--second-hue), 38%, 8%, .1);
 }
 
-.light-theme .skills__content, .light-theme .services__card, .light-theme .work__card, .light-theme .contact__card, .stat__card{
+.light-theme .stats, .light-theme .skills__content, .light-theme .services__card, .light-theme .work__card, .light-theme .contact__card, .light-theme .stat__card{
   box-shadow: 0 2px 16px hsla(var(--second-hue), 38%, 8%, .17);
 }
 .light-theme::-webkit-scrollbar{
   background-color: hsl(var(--second-hue), 8%, 66%);
 }
-
+.light-theme .git__img {
+  background-color: black;
+}
+.light-theme .leetcode__img{
+  content: url(../img/leetcode.png);
+}
 .light-theme::-webkit-scrollbar-thumb{
   background-color: hsl(var(--second-hue), 8%, 54%);
 }
@@ -585,6 +590,7 @@ body.light-theme {
   width: 110px;
   height: 110px;
   margin-bottom: 2rem;
+  transition: .4s;
 }
 
 .git__img{
@@ -603,6 +609,9 @@ body.light-theme {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.leetcode__img{
+  content: url(../img/leetcode_dark.png);
 }
 /*=============== SERVICES ===============*/
 .services__container {
