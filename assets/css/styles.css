@@ -180,6 +180,16 @@ body.light-theme {
 .light-theme .git__img {
   background-color: black;
 }
+.light-theme .github__streak{
+content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&theme=github-dark-blue&background=FFFFFF&border=000000&stroke=000000&currStreakNum=000000&currStreakLabel=000000&sideLabels=000000&dates=000000&sideNums=117CDD)
+}
+.light-theme .github__stat{
+  content: url(https://github-readme-stats.vercel.app/api?username=minhvy828&theme=default&show_icons=true&count_private=true);
+}
+.light-theme .leetcode{
+  content: url(https://leetcard.jacoblin.cool/minhvy828?theme=unicorn&font=DM%20Sans);
+}
+
 .light-theme .leetcode__img{
   content: url(../img/leetcode.png);
 }
@@ -606,6 +616,7 @@ body.light-theme {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 .leetcode__img{
   content: url(../img/leetcode_dark.png);
@@ -1057,6 +1068,9 @@ body.light-theme {
 /* For small devices */
 
 @media screen and (max-width:366px){
+  .stat__content{
+    padding: 4rem .8rem 2.5rem;
+  }
   .service__title{
     font-size: 1.2rem;
   }
@@ -1100,7 +1114,7 @@ body.light-theme {
     font-size: 0.7rem;
 }
   .work__item{
-    font-size: 0.70rem;
+    font-size: 0.750rem;
     text-align: center;
     padding: 0.55rem;
   }
@@ -1158,12 +1172,6 @@ body.light-theme {
   .skills .bxs-check-circle {
     font-size: 0.7rem;
 }
-  .work__item{
-    margin: 1rem;
-    font-size: 0.70rem;
-    text-align: center;
-    padding: 0.35rem;
-  }
 
   .work__filters{
     column-gap: .25rem;
@@ -1175,7 +1183,7 @@ body.light-theme {
 
   }
   .work__item{
-    font-size: 0.60rem;
+    font-size: 0.95rem;
     text-align: center;
     padding: 0.35rem 0.7rem;
     margin: 0.25rem;
@@ -1186,7 +1194,8 @@ body.light-theme {
 }
 
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 633px) {
+  
   .work__item{
     font-size: 0.950rem;
     text-align: center;
@@ -1229,7 +1238,7 @@ body.light-theme {
     padding: 0 3.5rem;
   }
   .skills__name{
-    font-size: 0.70rem;
+    font-size: 1.0rem;
   }
   .work__container{
     justify-content: center;
@@ -1250,6 +1259,7 @@ body.light-theme {
     width: 58.6px;
     height: 58.6px;
   }
+  
 }
 
 @media screen and (min-width: 767px) {
