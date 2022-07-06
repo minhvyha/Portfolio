@@ -1,6 +1,7 @@
 # Portfolio Website - Minh Vy Ha
 ## [Watch it on youtube](https://youtu.be/F4KFWV-UzPA)
 ## [Live Demo](https://minhvyha.tech)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e9fbbbb-87d9-46c6-ae5b-ecb048b6a38e/deploy-status)](https://app.netlify.com/sites/minhvyha/deploys)
 
 ## **Description:**
 
