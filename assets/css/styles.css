@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -205,7 +205,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
+.bold {
+  font-weight: 650;
+}
 .grid {
   display: grid;
   gap: 1.25rem;
