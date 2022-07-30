@@ -126,7 +126,8 @@ body.light-theme {
   --first-hue: 210;
   --sat: 60%;
   --lig: 57%;
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color: hsl(var(--first-hue), 55%,50%);
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 79%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
   --body-color: hsl(var(--second-hue), 100%, 99%);
@@ -158,15 +159,24 @@ body.light-theme {
 .light-theme .home__socials::after, .light-theme .footer__social-link {
   background-color: var(--title-color);
 }
-.light-theme .home__social-link, .light-theme .home__scrolls, .light-theme .button, .light-theme .active-work , .light-theme .footer__title,.light-theme .footer__link, .light-theme .footer__copy{
-  color: var(--title-color);
+.light-theme .button, .light-theme .active-work , .light-theme .footer__title,.light-theme .footer__link, .light-theme .footer__copy{
+  color: white;
+}
+
+.light-theme .home__scrolls, .light-theme .home__social-link, .light-theme .button--ghost{
+  color: black;
 }
 .light-theme .button:hover{
   background-color: #3d3d3d;
   color: white;
   border: 2px solid #3d3d3d;
 }
-
+.light-theme .nav__logo{
+  color: var(--first-color);
+}
+.light-theme .nav__logo:hover {
+  color: black;
+}
 .light-theme .about__box {
   box-shadow: 0 2px 8px hsla(var(--second-hue), 38%, 8%, .1);
 }
@@ -1298,6 +1308,10 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   .icon {
     font-size: 1.4rem;
   }
+
+  .skills .bxs-check-circle {
+    font-size: 1rem;
+  }
 }
 /* For large devices */
 @media screen and (min-width:992px) {
@@ -1366,7 +1380,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     column-gap: 3rem;
   }
   .services__card{
-    padding: 4rem 2rem 1.5rem;
+    padding: 4rem 2.5rem 2.2rem;
   }
   .work__container{
     gap: 3rem;
