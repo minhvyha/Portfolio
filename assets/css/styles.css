@@ -637,7 +637,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .experience__tabs{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .experience__button{
   font-size: var(--h3-font-size);
@@ -661,7 +661,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
-.expereince__subtitle{
+.experience__subtitle{
   display: inline-block;
   font-size: var(--small-font-size);
   margin-bottom: 1rem;
@@ -683,6 +683,15 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   height: 100%;
   background-color: var(--first-color);
   transform: translate(6px, -7px);
+}
+.experience [data-content]{
+  display: none;
+}
+.experience__active[data-content]{
+  display: block;
+}
+.experience__button.experience__active{
+  color: var(--first-color);
 }
 /*=============== SERVICES ===============*/
 .services__container {
@@ -1135,6 +1144,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 /* For small devices */
 
 @media screen and (max-width:366px){
+  .experience__data{
+    gap: .8rem;
+  }
   .stat__content{
     padding: 4rem .8rem 2.5rem;
   }
@@ -1195,8 +1207,14 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     height: 42px;
 
   }
+  
 }
 @media screen and (min-width: 366px){
+  .experience__sections{
+    display: grid;
+    grid-template-columns: .66fr;
+    justify-content: center;
+  }
   .service__title{
     font-size: 1.35rem;
   }
@@ -1262,7 +1280,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 
 /* For medium devices */
 @media screen and (min-width: 633px) {
-  
+  .experience__sections{
+    grid-template-columns: .55fr;
+  }
   .work__item{
     font-size: 0.950rem;
     text-align: center;
@@ -1330,6 +1350,16 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 
 @media screen and (min-width: 767px) {
+
+  .experience__tabs{
+    justify-content: center;
+  }
+  .experience__button{
+    margin: 0 1.5rem;
+  }
+  .experience__sections{
+    grid-template-columns: .5fr;
+  }
   .work__container{
     grid-template-columns: repeat(2, max-content);
   }
