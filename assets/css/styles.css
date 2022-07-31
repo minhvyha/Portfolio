@@ -669,6 +669,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .experience__calendar{
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+  display: flex;
+  align-items: center;
+  gap: .2rem;
 }
 .experience__rounder{
   display: inline-block;
