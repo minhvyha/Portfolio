@@ -281,7 +281,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   background-color: rgb(50, 50, 50);
   width: 90%;
   border-radius: 4rem;
-  padding: .0rem 1.25rem;
+  padding: .0rem .9rem;
   backdrop-filter: blur(10px);
   transition: .4s;
   justify-content: center;
@@ -293,7 +293,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 
 .nav__item{
   position: relative;
-  width: calc(90vw / 5);
+  width: calc(90vw / 6);
   height: 60px;
   z-index: 2;
 }
@@ -1157,13 +1157,13 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     font-size: 1.2rem;
   }
   .text{
-    font-size: 0.6em;
+    font-size: 0.4em;
   }
   .icon {
     font-size: 1.2em;
   }
   .active-link .indicator{
-    transform: translateY(-22px);
+    transform: translateY(-20px);
     opacity: 1;
   }
   .home__buttons{
@@ -1206,8 +1206,8 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 
   }
   .indicator {
-    width: 42px;
-    height: 42px;
+    width: 38px;
+    height: 38px;
 
   }
   
@@ -1278,7 +1278,10 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   }
   .home__buttons {
      flex-direction: row; 
-}
+  }
+  .nav__menu{
+    padding: 0 1.25rem;
+  }
 }
 
 /* For medium devices */
@@ -1346,8 +1349,11 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     margin: 0 auto;
   }
   .indicator {
-    width: 58.6px;
-    height: 58.6px;
+    width: 49.6px;
+    height: 49.6px;
+  }
+  .text{
+    font-size: .65rem;
   }
   
 }
@@ -1379,8 +1385,8 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     margin: 0 auto;
   }
   .indicator {
-    width: 65.6px;
-    height: 65.6px;
+    width: 55.6px;
+    height: 55.6px;
   }
   .active-link .indicator {
     transform: translateY(-28px);
@@ -1395,6 +1401,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 
   .skills .bxs-check-circle {
     font-size: 1rem;
+  }
+  .text{
+    font-size: .7rem;
   }
 }
 /* For large devices */
@@ -1502,6 +1511,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   }
   .skills__level {
     font-size: 0.61rem;
+  }
+  .text{
+    font-size: .75rem;
   }
 }
 
