@@ -1146,7 +1146,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-@media screen and (max-width:366px){
+@media screen and (max-width:390px){
   .experience__data{
     gap: .75rem;
   }
@@ -1212,10 +1212,14 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   }
   
 }
-@media screen and (min-width: 366px){
+@media screen and (min-width: 390px){
+
+  .experience__data{
+    gap: .8rem;
+  }
   .experience__sections{
     display: grid;
-    grid-template-columns: .66fr;
+    grid-template-columns: .7fr;
     justify-content: center;
   }
   .service__title{
@@ -1359,6 +1363,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 
 @media screen and (min-width: 767px) {
+  .experience__data {
+    column-gap: 1.3rem;
+  }
 
   .experience__tabs{
     justify-content: center;
@@ -1408,6 +1415,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 /* For large devices */
 @media screen and (min-width:992px) {
+  .experience__data {
+    column-gap: 1.5rem;
+  }
   .nav__menu{
     width: 458px;
     left: 0;
