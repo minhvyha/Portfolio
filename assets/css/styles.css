@@ -574,7 +574,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .skills__name {
   font-size: 1.1rem;
   font-weight: var(--font-medium);
-  line-height: 18px;
+  line-height: 21px;
 }
 
 .skills__level{
