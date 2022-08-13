@@ -1189,7 +1189,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     font-size: 0.51rem;
   }
   .services__container{
-    grid-template-columns: 170px;
+    grid-template-columns: 190px;
     justify-content: center;
   }
   .skills .bxs-check-circle {
@@ -1258,7 +1258,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     font-size: 0.71rem;
   }
   .services__container{
-    grid-template-columns: 180px;
+    grid-template-columns: 220px;
     justify-content: center;
   }
   .skills .bxs-check-circle {
