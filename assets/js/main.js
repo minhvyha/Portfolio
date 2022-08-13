@@ -73,7 +73,7 @@ var mixerPortfolio = mixitup('.work__container', {
         target: '.work__card'
     },
     load: {
-        filter: '.algo'
+        filter: '.web'
     },
     animation: {
         duration: 350
