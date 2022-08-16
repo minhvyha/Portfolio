@@ -8,7 +8,7 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== EXPERIENCE MODAL ===============*/
-const tabs = document.querySelectorAll('[data-target]'),
+const tabs = document.querySelectorAll("[data-target]"),
       tabContents = document.querySelectorAll('[data-content]')
 
 tabs.forEach(tab =>{

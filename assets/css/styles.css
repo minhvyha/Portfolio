@@ -1363,6 +1363,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 
 @media screen and (min-width: 767px) {
+  .home__handle{
+    width: 170px;
+  }
   .experience__data {
     column-gap: 1.3rem;
   }
