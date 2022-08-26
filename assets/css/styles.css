@@ -1147,6 +1147,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 /* For small devices */
 
 @media screen and (max-width:390px){
+  .work__card{
+    padding: 1rem;
+  }
   .experience__data{
     gap: .75rem;
   }
