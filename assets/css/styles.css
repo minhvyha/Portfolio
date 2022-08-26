@@ -757,7 +757,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   border-radius: 1.5rem;
 }
 
-.services__modal-title, .services__modal-description {
+.services__modal-title, .services__modal-description, .experience__modal-title {
   text-align: center;
 }
 
