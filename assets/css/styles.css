@@ -737,7 +737,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   transition: .5s;
 }
 /* Services modal */
-.services__modal {
+.services__modal, .experience__modal-modal{
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
@@ -750,7 +750,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   opacity: 0;
 }
 
-.services__modal-content {
+.services__modal-content, .experience__modal-content {
   position: relative;
   background-color: var(--body-color);
   padding: 4rem 1.5rem 2.5rem;
@@ -761,7 +761,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   text-align: center;
 }
 
-.services__modal-title {
+.services__modal-title, .experience__modal-title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin-bottom: 1rem;
