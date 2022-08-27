@@ -27,6 +27,17 @@ tabs.forEach(tab =>{
     })
 })
 
+/*=============== EXPERIENCE MODAL ===============*/
+const expBtns = document.querySelectorAll('.experience__button'),
+      expViews = document.querySelectorAll('.experience__modal'),
+      expClose = document.querySelectorAll('.experience__modal-close')
+
+let expModal = function(modalIndex) {
+    modalViews[modalIndex].classList.add('active-modal')
+}
+
+
+
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
