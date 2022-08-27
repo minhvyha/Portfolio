@@ -678,17 +678,17 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 .experience__rounder{
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 8px;
+  height: 8px;
   background-color: var(--first-color);
   border-radius: 50%;
 }
 .experience__line{
   display: block;
   width: 1px;
-  height: 125%;
+  height: calc(100% + 1.2rem);
   background-color: var(--first-color);
-  transform: translate(6px, -7px);
+  transform: translate(3.5px, -8px);
 }
 .experience [data-content]{
   display: none;
@@ -1544,7 +1544,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
     grid-template-columns: 1fr;
   }
   .experience__data{
-    column-gap: 2rem;
+    column-gap: 2.5rem;
   }
   .work__img{
     width: 300px;
