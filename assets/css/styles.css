@@ -671,7 +671,8 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  flex-direction: column;
   gap: .2rem;
 }
 .experience__rounder{
@@ -1535,6 +1536,9 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 
 @media screen and (min-width:1300px) {
+  .experience__data{
+    column-gap: 2rem;
+  }
   .work__img{
     width: 300px;
   }
