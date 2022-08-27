@@ -737,7 +737,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   transition: .5s;
 }
 /* Services modal */
-.services__modal, .experience__modal-modal{
+.services__modal, .experience__modal{
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
