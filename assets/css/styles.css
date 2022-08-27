@@ -661,8 +661,8 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .experience__title{
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 1.7rem;
-  margin-bottom: .8rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
 }
 .experience__separate{
   display: flex;
@@ -687,9 +687,10 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 }
 .experience__calendar h2{
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: right;
   margin-bottom: .5rem;
+  font-weight: 500;
 }
 .experience__calendar p{
   font-size: 14px;
