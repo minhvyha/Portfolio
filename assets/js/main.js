@@ -28,7 +28,7 @@ tabs.forEach(tab =>{
 })
 
 /*=============== EXPERIENCE MODAL ===============*/
-const expBtns = document.querySelectorAll('.experience__button'),
+const expBtns = document.querySelectorAll('.experience__button-modal'),
       expViews = document.querySelectorAll('.experience__modal'),
       expClose = document.querySelectorAll('.experience__modal-close')
 
@@ -36,7 +36,19 @@ let expModal = function(modalIndex) {
     modalViews[modalIndex].classList.add('active-modal')
 }
 
+expBtns.forEach((eb, i) =>{
+    eb.addEventListener('click', () =>{
+        expModal(i)
+    })
+})
 
+expClose.forEach((ec) =>{
+    ec.addEventListener('click', () =>{
+        expViews.forEach(ev =>{
+            ev.classList.remove('active-modal')
+        })
+    })
+})
 
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll('.services__modal'),
