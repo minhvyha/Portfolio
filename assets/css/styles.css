@@ -655,7 +655,8 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .experience__data{
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  column-gap: 1.7rem;
 } 
 .experience__title{
   font-size: var(--normal-font-size);
@@ -683,7 +684,7 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
 .experience__line{
   display: block;
   width: 1px;
-  height: 100%;
+  height: 125%;
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
