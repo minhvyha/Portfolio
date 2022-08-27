@@ -685,7 +685,13 @@ content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&the
   gap: .2rem;
 }
 .experience__calendar h2{
-  font-size: 1rem;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.experience__calendar p{
+  font-size: 14px;
   text-align: right;
 }
 .experience__rounder{
