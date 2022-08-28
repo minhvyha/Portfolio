@@ -1306,7 +1306,7 @@ body.light-theme {
 /* For medium devices */
 @media screen and (min-width: 633px) {
   .experience__sections {
-    grid-template-columns: 0.55fr;
+    grid-template-columns: 0.75fr;
   }
   .work__item {
     font-size: 0.95rem;
