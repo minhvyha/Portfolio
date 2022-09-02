@@ -1173,7 +1173,9 @@ body.light-theme {
 
 @media screen and (max-width: 390px) {
   .experience__calendar h2{
-    font-size: .9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .15rem;
   }
   .experience__title{
     font-size: 17px;
@@ -1185,8 +1187,11 @@ body.light-theme {
     padding: 0 .5rem;
   }
   .experience__data__container{
+    max-width: 300px;
     display: flex;
     gap: .4rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .experience__calendar{
     align-items: flex-start;
