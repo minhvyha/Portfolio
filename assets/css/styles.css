@@ -717,6 +717,13 @@ body.light-theme {
   background-color: var(--first-color);
   border-radius: 50%;
 }
+.experience__dot__mobile{
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
 .experience__line {
   display: block;
   width: 1px;
@@ -1165,6 +1172,30 @@ body.light-theme {
 /* For small devices */
 
 @media screen and (max-width: 390px) {
+  .experience__title{
+    font-size: 1.1rem;
+  }
+  .experience__content{
+    padding: 0 .5rem;
+  }
+  .experience__data__container{
+    display: flex;
+    gap: .4rem;
+  }
+  .experience__calendar{
+    align-items: flex-start;
+  }
+  .experience__dot__mobile{
+    display: inline-block;
+    transform: translateY(5.5px);
+    padding: .3rem;
+  }
+  .experience__data{
+    grid-template-columns: 1fr;
+  }
+  .experience__rounder, .experience__line, .experience__separate{
+    display: none;
+  }
   .work__card {
     padding: 1rem;
   }
@@ -1231,6 +1262,9 @@ body.light-theme {
   }
 }
 @media screen and (min-width: 390px) {
+  .experience__dot__mobile{
+    display: none;
+  }
   .experience__data {
     gap: 0.8rem;
   }
