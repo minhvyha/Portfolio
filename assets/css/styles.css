@@ -1172,6 +1172,9 @@ body.light-theme {
 /* For small devices */
 
 @media screen and (max-width: 390px) {
+  .experience__calendar h2{
+    font-size: .9rem;
+  }
   .experience__title{
     font-size: 17px;
   }
