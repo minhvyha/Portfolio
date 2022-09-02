@@ -1187,9 +1187,9 @@ body.light-theme {
     padding: 0 .5rem;
   }
   .experience__data__container{
-    max-width: 300px;
+    max-width: 290px;
     display: flex;
-    gap: .4rem;
+    gap: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
