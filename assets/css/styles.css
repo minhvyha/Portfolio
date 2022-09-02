@@ -684,7 +684,7 @@ body.light-theme {
   height: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  transform: translateY(3px);
+  transform: translateY(6px);
 }
 .experience__subtitle {
   display: inline-block;
@@ -1436,7 +1436,7 @@ body.light-theme {
     margin: 0 1.5rem;
   }
   .experience__sections {
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 0.80fr;
   }
   .work__container {
     grid-template-columns: repeat(2, max-content);
