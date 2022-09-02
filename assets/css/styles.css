@@ -1173,7 +1173,10 @@ body.light-theme {
 
 @media screen and (max-width: 390px) {
   .experience__title{
-    font-size: 1.1rem;
+    font-size: 17px;
+  }
+  .experience__subtitle{
+    font-size: 13px;
   }
   .experience__content{
     padding: 0 .5rem;
