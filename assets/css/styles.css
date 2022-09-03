@@ -717,7 +717,7 @@ body.light-theme {
   background-color: var(--first-color);
   border-radius: 50%;
 }
-.experience__dot__mobile{
+.experience__dot__mobile {
   display: block;
   width: 8px;
   height: 8px;
@@ -1172,39 +1172,41 @@ body.light-theme {
 /* For small devices */
 
 @media screen and (max-width: 390px) {
-  .experience__calendar h2{
+  .experience__calendar h2 {
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: .15rem;
+    margin-bottom: 0.15rem;
   }
-  .experience__title{
+  .experience__title {
     font-size: 18px;
   }
-  .experience__subtitle{
+  .experience__subtitle {
     font-size: 13px;
   }
-  .experience__content{
-    padding: 0 .5rem;
+  .experience__content {
+    padding: 0 0.5rem;
   }
-  .experience__data__container{
+  .experience__data__container {
     max-width: 290px;
     display: flex;
     gap: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .experience__calendar{
+  .experience__calendar {
     align-items: flex-start;
   }
-  .experience__dot__mobile{
+  .experience__dot__mobile {
     display: inline-block;
     transform: translateY(5.5px);
-    padding: .3rem;
+    padding: 0.3rem;
   }
-  .experience__data{
+  .experience__data {
     grid-template-columns: 1fr;
   }
-  .experience__rounder, .experience__line, .experience__separate{
+  .experience__rounder,
+  .experience__line,
+  .experience__separate {
     display: none;
   }
   .work__card {
@@ -1273,7 +1275,7 @@ body.light-theme {
   }
 }
 @media screen and (min-width: 390px) {
-  .experience__dot__mobile{
+  .experience__dot__mobile {
     display: none;
   }
   .experience__data {
@@ -1436,12 +1438,11 @@ body.light-theme {
     margin: 0 1.5rem;
   }
   .experience__sections {
-    grid-template-columns: 0.80fr;
+    grid-template-columns: 0.8fr;
   }
   .work__container {
     grid-template-columns: repeat(2, max-content);
   }
-
   .contact__container {
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
