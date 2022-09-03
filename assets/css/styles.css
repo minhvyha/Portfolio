@@ -1283,7 +1283,7 @@ body.light-theme {
   }
   .experience__sections {
     display: grid;
-    grid-template-columns: 0.7fr;
+    grid-template-columns: 0.82fr;
     justify-content: center;
   }
   .service__title {
@@ -1352,9 +1352,6 @@ body.light-theme {
 
 /* For medium devices */
 @media screen and (min-width: 633px) {
-  .experience__sections {
-    grid-template-columns: 0.75fr;
-  }
   .work__item {
     font-size: 0.95rem;
     text-align: center;
@@ -1438,7 +1435,10 @@ body.light-theme {
     margin: 0 1.5rem;
   }
   .experience__sections {
-    grid-template-columns: 0.8fr;
+    grid-template-columns: 0.85fr;
+  }
+  .experience__title{
+    font-size: 1.15rem;
   }
   .work__container {
     grid-template-columns: repeat(2, max-content);
