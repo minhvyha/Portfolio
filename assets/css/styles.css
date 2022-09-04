@@ -1615,10 +1615,11 @@ body.light-theme {
   .text {
     font-size: 0.75rem;
   }
-  .experience__calendar p, .experience__subtitle{
+  .experience__calendar p,
+  .experience__subtitle {
     font-size: 14.5px;
   }
-  .experience__title{
+  .experience__title {
     font-size: 1.25rem;
   }
 }
