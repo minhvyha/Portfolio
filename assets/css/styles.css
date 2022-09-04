@@ -672,6 +672,10 @@ body.light-theme {
   margin-bottom: 1.7rem;
   column-gap: 1.7rem;
 }
+.experience__sections {
+  display: grid;
+  justify-content: center;
+}
 .experience__title {
   display: flex;
   align-items: center;
@@ -1220,10 +1224,10 @@ body.light-theme {
     column-gap: 1rem;
   }
   .skills__name {
-    font-size: 0.605rem;
+    font-size: 0.75rem;
   }
   .skills__level {
-    font-size: 0.51rem;
+    font-size: 0.56rem;
   }
   .services__container {
     grid-template-columns: 190px;
@@ -1248,15 +1252,15 @@ body.light-theme {
 }
 @media screen and (max-width: 470px) {
   .experience__calendar h2 {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 0.15rem;
   }
   .experience__title {
-    font-size: 18px;
+    font-size: 16px;
   }
   .experience__subtitle {
-    font-size: 13px;
+    font-size: 12px;
   }
   .experience__content {
     padding: 0 0.5rem;
@@ -1286,8 +1290,14 @@ body.light-theme {
   }
 }
 @media screen and (min-width: 390px) {
+  .experience__calendar h2{
+    font-size: 1.05rem;
+  }
   .experience__title {
     font-size: 1.15rem;
+  }
+  .experience__subtitle{
+    font-size: 13px;
   }
   .experience__dot__mobile {
     display: none;
@@ -1296,7 +1306,7 @@ body.light-theme {
     gap: 0.8rem;
   }
   .experience__sections {
-    grid-template-columns: 0.85fr;
+    grid-template-columns: 0.95fr;
   }
   .service__title {
     font-size: 1.35rem;
@@ -1430,6 +1440,9 @@ body.light-theme {
   .text {
     font-size: 0.65rem;
   }
+  .experience__sections {
+    grid-template-columns: 0.85fr;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -1446,17 +1459,17 @@ body.light-theme {
   .experience__button {
     margin: 0 1.5rem;
   }
-  .experience__sections {
-    grid-template-columns: 0.85fr;
-  }
-  .experience__calendar h2 {
-    font-size: 0.95rem;
+  .experience__title{
+    font-size: 1.2rem;
   }
   .experience__calendar p {
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .experience__calendar h2{
+    font-size: 1.15rem;
   }
   .experience__subtitle {
-    font-size: 13px;
+    font-size: 14px;
   }
   .work__container {
     grid-template-columns: repeat(2, max-content);
@@ -1496,9 +1509,6 @@ body.light-theme {
 }
 /* For large devices */
 @media screen and (min-width: 992px) {
-  .experience__sections {
-    grid-template-columns: 0.85fr;
-  }
   .experience__data {
     column-gap: 1.5rem;
   }
@@ -1602,9 +1612,6 @@ body.light-theme {
     padding: 0.55rem 0.75rem;
     margin: 0.55rem;
   }
-  .skills__level {
-    font-size: 0.61rem;
-  }
   .text {
     font-size: 0.75rem;
   }
@@ -1628,6 +1635,6 @@ body.light-theme {
     max-width: max-content;
   }
   .skills__level {
-    font-size: 0.71rem;
+    font-size: 0.76rem;
   }
 }
