@@ -1290,13 +1290,13 @@ body.light-theme {
   }
 }
 @media screen and (min-width: 390px) {
-  .experience__calendar h2{
+  .experience__calendar h2 {
     font-size: 1.05rem;
   }
   .experience__title {
     font-size: 1.15rem;
   }
-  .experience__subtitle{
+  .experience__subtitle {
     font-size: 13px;
   }
   .experience__dot__mobile {
@@ -1459,13 +1459,13 @@ body.light-theme {
   .experience__button {
     margin: 0 1.5rem;
   }
-  .experience__title{
+  .experience__title {
     font-size: 1.2rem;
   }
   .experience__calendar p {
     font-size: 14px;
   }
-  .experience__calendar h2{
+  .experience__calendar h2 {
     font-size: 1.15rem;
   }
   .experience__subtitle {
