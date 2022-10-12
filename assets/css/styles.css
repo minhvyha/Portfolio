@@ -110,7 +110,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.bx-right-arrow-alt{
+  margin-top: .2rem;
+}
 /*=============== THEME ===============*/
 .change-theme {
   font-size: 1.25rem;
