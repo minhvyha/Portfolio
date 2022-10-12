@@ -19,11 +19,11 @@
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
-  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --title-color: hsl(var(--second-hue), 15%, 100%);
   --text-color: hsl(var(--second-hue), 8%, 80%);
-  --text-color-light: hsl(var(--second-hue), 4%, 55%);
-  --body-color: hsl(var(--second-hue), 48%, 8%);
-  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --text-color-light: hsl(var(--second-hue), 4%, 56%);
+  --body-color: hsl(var(--second-hue), 38%, 6.5%);
+  --container-color: hsl(var(--second-hue), 32%, 10%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -111,7 +111,7 @@ img {
   height: auto;
 }
 .bx-right-arrow-alt{
-  margin-top: .2rem;
+  margin-top: .115rem;
 }
 /*=============== THEME ===============*/
 .change-theme {
