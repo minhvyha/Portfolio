@@ -206,13 +206,13 @@ body.light-theme {
 	background-color: black;
 }
 .light-theme .github__streak {
-	content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvy828&theme=github-dark-blue&background=FFFFFF&border=000000&stroke=000000&currStreakNum=000000&currStreakLabel=000000&sideLabels=000000&dates=000000&sideNums=117CDD);
+	content: url(https://github-readme-streak-stats.herokuapp.com?user=minhvyha&theme=github-dark-blue&background=FFFFFF&border=000000&stroke=000000&currStreakNum=000000&currStreakLabel=000000&sideLabels=000000&dates=000000&sideNums=117CDD);
 }
 .light-theme .github__stat {
-	content: url(https://github-readme-stats.vercel.app/api?username=minhvy828&theme=default&show_icons=true&count_private=true);
+	content: url(https://github-readme-stats.vercel.app/api?username=minhvyha&theme=default&show_icons=true&count_private=true);
 }
 .light-theme .leetcode {
-	content: url(https://leetcard.jacoblin.cool/minhvy828?theme=unicorn&font=DM%20Sans);
+	content: url(https://leetcard.jacoblin.cool/minhvyha?theme=unicorn&font=DM%20Sans);
 }
 
 .light-theme .leetcode__img {
